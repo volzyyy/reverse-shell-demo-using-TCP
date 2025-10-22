@@ -9,8 +9,8 @@
 ---
 
 ## Overview
-This project is an **educational demonstration** of a reverse-shell style client/server architecture using Python TCP sockets. It is designed to illustrate:
-> ⚠️ **Important:** This project is meant for learning purposes only. Run only on machines you own or in isolated lab environments (VMs, containers). Never attempt to access machines you do not own.
+This project is an **educational demonstration** of a reverse-shell style client/server architecture using Python TCP sockets.
+⚠️ **Important:** This project is meant for learning purposes only. Run only on machines you own or in isolated lab environments (VMs, containers). Never attempt to access machines you do not own.
 
 ---
 
@@ -28,6 +28,4 @@ This project is an **educational demonstration** of a reverse-shell style client
   - Supports interactive communication without blocking using threads
 
 ---
-
-## Getting Started
 
