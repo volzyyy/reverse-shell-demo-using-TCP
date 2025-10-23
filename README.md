@@ -29,13 +29,12 @@ This project is an **educational demonstration** of a reverse-shell style client
 
 ---
 
-## How to Run (Educational Demo)
+## How to Run
 
-> ⚠️ **Important:** Run this only on machines you own or in a controlled lab environment.
 
 1. **Set the IP Address**
    - Edit both `server.py` and `client.py`.
-   - Change the IP address to the machine you want the client to connect to (usually your own PC for testing).
+   - Change the IP address to the machine you want the client to connect to.
 
 2. **Start the Server**
    - Open a command terminal on the machine running `server.py`.
@@ -61,8 +60,4 @@ This project is an **educational demonstration** of a reverse-shell style client
      ```
      Run Commands:
      ```
-   - You can now type **predefined, safe commands** (like `IPCONFIG` on Windows or `PING`) and see the output from the client.
-
-5. **Notes**
-   - Only commands defined in the client’s whitelist are allowed. Arbitrary shell commands are **not supported** for safety.
-   - Close the server or client to terminate the connection.
+   - You can now type (like `IPCONFIG` on Windows or `PING`) and see the output from the client.
